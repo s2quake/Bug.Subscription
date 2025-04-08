@@ -1,0 +1,4 @@
+{
+    "csharp.debug.justMyCode": false,
+    "dotnet.defaultSolution": "Bug.Subscription.sln"
+}

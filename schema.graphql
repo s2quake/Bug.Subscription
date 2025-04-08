@@ -1,0 +1,16 @@
+schema {
+  query: Query
+  subscription: Subscription
+}
+
+type Query {
+  second: Int!
+}
+
+type SecondEventData {
+  second: Int!
+}
+
+type Subscription {
+  onSecondChanged: SecondEventData
+}

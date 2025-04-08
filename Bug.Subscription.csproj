@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.AspNet" Version="1.4.2" />
+    <PackageReference Include="GraphQL.AspNet.Subscriptions" Version="1.4.2" />
+    <ProjectReference Include="./.graphql-platform/src/StrawberryShake/Client/src/Core/StrawberryShake.Core.csproj" />
+    <ProjectReference Include="./.graphql-platform/src/StrawberryShake/Client/src/Transport.Http/StrawberryShake.Transport.Http.csproj" />
+    <ProjectReference Include="./.graphql-platform/src/StrawberryShake/Client/src/Transport.WebSockets/StrawberryShake.Transport.WebSockets.csproj" />
+  </ItemGroup>
+
+</Project>
